@@ -1,7 +1,7 @@
-bazza - the builder [![Build Status](https://secure.travis-ci.org/mattdunn/bazza.png)](http://travis-ci.org/mattdunn/bazza)
+TWorld
 =======
 
-Build up objects close to where they're being used. 
+See your TWorks world in a whole new light.
 
 License
 -------
