@@ -1,7 +1,17 @@
 {
-	"name": "twaggregator",
-	"version": "0.0.1",
-	"dependencies": {
-		"express": "2.2.0"
-	}
+    "name": "express-coffee"
+  , "version": "1.2.1"
+  , "private": true
+  , "dependencies": {
+      "coffee-script": "1.1.x"
+    , "express": "2.5.x" 
+    , "jade": "0.x.x"
+    , "connect-assets": "2.1.x"
+    , "stylus": "*"
+    , "nib": "*"
+    , "markdown": "*"
+  }
+  , "devDependencies": {
+  }
+  , "engine": "node ~> 0.6.x"
 }
