@@ -1,4 +1,4 @@
-TWorld
+TWorld  [![Build Status](https://secure.travis-ci.org/mattdunn/tworld.png)](http://travis-ci.org/mattdunn/tworld)
 =======
 
 See your TWorks world in a whole new light.
