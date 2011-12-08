@@ -10,6 +10,7 @@
     , "stylus": "*"
     , "nib": "*"
     , "markdown": "*"
+	, "jasmine-node": "*"
   }
   , "devDependencies": {
   }
