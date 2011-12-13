@@ -3,6 +3,8 @@ TWorld  [![Build Status](https://secure.travis-ci.org/mattdunn/tworld.png)](http
 
 See your TWorks world in a whole new light.
 
+http://tworld.heroku.com
+
 License
 -------
 
