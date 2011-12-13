@@ -11,3 +11,24 @@ License
 </a>
 <br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 
+To Do
+-----
+* public/js/tworld.js
+  * is a complete hack; need to figure out how to use coffeescript to compile js into assets, using something like:
+    * https://github.com/TrevorBurnham/connect-assets or
+    * http://epeli.github.com/node-pile/
+
+  * when coffeescript is an option, rewrite so its not a kludgy, procedural script
+
+* layout.jade:
+  * cleanup meta tags etc inc IE tests 
+  * resolve path to javascript includes in a smarter way (inc. getting away from platform specific path separators)
+    * asset manager mentioned above should do this
+
+* index.jade
+  * same deal about resolving path to js assets as above
+
+* assets/js/app.coffee
+  * is sample code? delete?
+
+* Better favicon.ico than a dog?
