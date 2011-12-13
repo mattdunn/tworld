@@ -10,9 +10,11 @@
     , "stylus": "*"
     , "nib": "*"
     , "markdown": "*"
-	, "jasmine-node": "*"
+    , "zombie": "*"
+    , "mocha": "*"
   }
   , "devDependencies": {
+    "nodemon": "*"
   }
   , "engine": "node ~> 0.6.x"
 }
