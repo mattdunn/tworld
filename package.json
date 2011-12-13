@@ -10,11 +10,12 @@
     , "stylus": "*"
     , "nib": "*"
     , "markdown": "*"
-    , "zombie": "*"
-    , "mocha": "*"
+
   }
   , "devDependencies": {
-    "nodemon": "*"
+      "should": "*"
+    , "zombie": "*"
+    , "mocha": "*"
   }
   , "engine": "node ~> 0.6.x"
   , "scripts": { "test": "make test" }
