@@ -17,4 +17,5 @@
     "nodemon": "*"
   }
   , "engine": "node ~> 0.6.x"
+  , "scripts": { "test": "make test" }
 }
