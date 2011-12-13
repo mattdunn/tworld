@@ -13,9 +13,3 @@ describe "Given I am a European User of TWorld", ->
         status.should.equal(200)
         done()
 
-  describe "in a different describe block", ->
-    it "should pass this test to!", (done) ->
-      zombie.visit "http://localhost:3000##{@locale}", (e, browser, status) ->
-        status.should.equal(200)
-        done()
-
