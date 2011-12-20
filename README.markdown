@@ -30,6 +30,9 @@ To Do
 * index.jade
   * same deal about resolving path to js assets as above
 
+* layout.jade
+  * could this be collapsed into index.jade, given this is a single page web app?
+
 * assets/js/app.coffee
   * is sample code? delete?
 
