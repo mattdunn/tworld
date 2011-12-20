@@ -17,22 +17,15 @@ To Do
 -----
 * public/js/tworld.js
   * when coffeescript is an option, rewrite so its not a kludgy, procedural script
+    * e.g logic should only fire when page loading is done, break out functions
 
 * Makefile
   * We added css and js to --globals parameter to prevent test failures with mocha, should we just ignore leaks instead? (--ignore-leaks)
 
 * layout.jade:
   * cleanup meta tags etc inc IE tests 
-  * resolve path to javascript includes in a smarter way (inc. getting away from platform specific path separators)
-    * asset manager mentioned above should do this
-
-* index.jade
-  * same deal about resolving path to js assets as above
 
 * layout.jade
   * could this be collapsed into index.jade, given this is a single page web app?
-
-* assets/js/app.coffee
-  * is sample code? delete?
 
 * Better favicon.ico than a dog?
