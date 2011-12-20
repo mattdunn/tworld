@@ -16,11 +16,10 @@ License
 To Do
 -----
 * public/js/tworld.js
-  * is a complete hack; need to figure out how to use coffeescript to compile js into assets, using something like:
-    * https://github.com/TrevorBurnham/connect-assets or
-    * http://epeli.github.com/node-pile/
-
   * when coffeescript is an option, rewrite so its not a kludgy, procedural script
+
+* Makefile
+  * We added css and js to --globals parameter to prevent test failures with mocha, should we just ignore leaks instead? (--ignore-leaks)
 
 * layout.jade:
   * cleanup meta tags etc inc IE tests 
