@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+}
+
+svg {
+    display: block;
+}
+
+.layer circle {
+    fill: #f00;
+    stroke: #000;
+    stroke-width: 2px;
+}
