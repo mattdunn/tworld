@@ -8,5 +8,9 @@ europeRegionCoordinates =
 
 europeZoomLevel = 6.5
 
-map = new Map
-map.centre(europeRegionCoordinates, europeZoomLevel)
+$( ->
+  map = new Map
+  map.centre(europeRegionCoordinates, europeZoomLevel)
+)
+
+

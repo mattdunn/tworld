@@ -17,7 +17,6 @@ To Do
 -----
 * public/js/tworld.js
   * when coffeescript is an option, rewrite so its not a kludgy, procedural script
-    * e.g logic should only fire when page loading is done, break out functions
     * theres gotta be a better way of namespacing than putting Map into the root/global namespace (see map.coffee)
 
 * Makefile
