@@ -9,12 +9,11 @@ How to run
 ----------
 
 * The app
-** npm install
-** nodemon server.js
+  * npm install
+  * nodemon server.js
 
 * Tests
-** npm test
-
+  * npm test
 
 License
 -------
