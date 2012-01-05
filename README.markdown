@@ -5,6 +5,17 @@ See your TWorks world in a whole new light.
 
 http://tworld.heroku.com
 
+How to run
+----------
+
+* The app
+** npm install
+** nodemon server.js
+
+* Tests
+** npm test
+
+
 License
 -------
 
