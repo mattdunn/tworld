@@ -8,5 +8,3 @@ exports.Region = (@test)->
       'zoomLevel':2
       'regionName':'Europe'
 
-  testFunction: -> console.log(@test)
-
