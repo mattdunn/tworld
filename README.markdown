@@ -5,6 +5,12 @@ See your TWorks world in a whole new light.
 
 http://tworld.heroku.com
 
+How to deploy
+-------------
+
+* Install [heroku gem](http://devcenter.heroku.com/articles/node-js)
+* git push heroku master
+
 How to run
 ----------
 
@@ -28,6 +34,8 @@ To Do
 * public/js/tworld.js
   * when coffeescript is an option, rewrite so its not a kludgy, procedural script
     * theres gotta be a better way of namespacing than putting Map into the root/global namespace (see map.coffee)
+
+* consume coordinate rest endpoint instead of hardcoded endpoints
 
 * Makefile
   * We added css and js to --globals parameter to prevent test failures with mocha, should we just ignore leaks instead? (--ignore-leaks)
