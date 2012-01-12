@@ -47,3 +47,5 @@ To Do
   * could this be collapsed into index.jade, given this is a single page web app?
 
 * Better favicon.ico than a dog?
+
+* Automatically deploy from travis to heroku - possibly use [this?](https://github.com/travis-ci/travis-cli/blob/master/spec/travis/cli/config_spec.rb)
