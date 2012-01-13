@@ -24,7 +24,6 @@ app.get "/" , (req, resp) -> resp.render 'index'
 region = require("./routes/region.coffee").Region()
 offices = require("./routes/offices.coffee").Offices()
 
-
 app.get "/region/:id", region.getRegion
 app.get "/offices/:id", offices.getOffice
 

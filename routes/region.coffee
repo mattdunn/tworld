@@ -1,6 +1,4 @@
-exports.Region = (@test)->
-  test = @test || {}
-
+exports.Region = ()->
   getRegion:(req, res) ->
     res.send
       'lat':1

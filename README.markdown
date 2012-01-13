@@ -21,6 +21,11 @@ How to run
 * Tests
   * npm test
 
+When developing
+---------------
+
+* When you pull from git, use the '-- rebase' option
+
 License
 -------
 
@@ -36,6 +41,8 @@ To Do
     * theres gotta be a better way of namespacing than putting Map into the root/global namespace (see map.coffee)
 
 * consume coordinate rest endpoint instead of hardcoded endpoints
+
+* rename region resource to regions?
 
 * Makefile
   * We added css and js to --globals parameter to prevent test failures with mocha, should we just ignore leaks instead? (--ignore-leaks)
