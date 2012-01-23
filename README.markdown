@@ -37,6 +37,8 @@ License
 To Do
 -----
 
+* npm test is broken locally
+
 * figure out how to write tests for this stuff
   * coffee testing
   * sikuli or some such for screenshot based differences ui tests? how else do we test the map is where we say it should be?
