@@ -7,7 +7,7 @@ exports.Offices = ()->
       'type':'Feature'
       'id':6718
       'properties':
-        'IDENTIFIER':2602840669377
+        'IDENTIFIER':'2602840669377'
         'CODE':6140 
         'NAME':''
     ] 
