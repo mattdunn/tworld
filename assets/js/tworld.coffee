@@ -8,7 +8,9 @@ europeRegionCoordinates =
 
 europeZoomLevel = 6.5
 
+loadMap = (offices) -> 
+  (new Map).centre(europeRegionCoordinates, europeZoomLevel, offices)
+
 $( ->
-  map = new Map
-  map.centre(europeRegionCoordinates, europeZoomLevel)
+  $.getJSON '/offices/123', (offices) -> loadMap(offices)
 )
