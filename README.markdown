@@ -36,9 +36,6 @@ License
 
 To Do
 -----
-* public/js/tworld.js
-  * when coffeescript is an option, rewrite so its not a kludgy, procedural script
-    * theres gotta be a better way of namespacing than putting Map into the root/global namespace (see map.coffee)
 
 * consume coordinate rest endpoint instead of hardcoded endpoints
 
