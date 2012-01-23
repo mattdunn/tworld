@@ -37,9 +37,21 @@ License
 To Do
 -----
 
-* consume coordinate rest endpoint instead of hardcoded endpoints
+* figure out how to write tests for this stuff
+  * coffee testing
+  * sikuli or some such for screenshot based differences ui tests? how else do we test the map is where we say it should be?
 
 * rename region resource to regions?
+
+* do we need the properties in the offices json?
+
+* how best to structure routes?
+  * zappa?
+
+* better looking map
+
+* better looking point
+  * should the marker be something other than a point?
 
 * Makefile
   * We added css and js to --globals parameter to prevent test failures with mocha, should we just ignore leaks instead? (--ignore-leaks)

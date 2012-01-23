@@ -2,15 +2,17 @@
 #= require "jquery/jquery.min"
 #= require "map"
 
-europeRegionCoordinates =
-  lat: 52.268157
-  lon: 2.548828
+loadRegion = (callback) ->
+  $.getJSON '/region/Europe', (region) -> callback(region)
 
-europeZoomLevel = 6.5
+loadOffices = (callback) ->
+   $.getJSON '/offices/', (offices) -> callback(offices)
 
-loadMap = (offices) -> 
-  (new Map).centre(europeRegionCoordinates, europeZoomLevel, offices)
+loadMap = (region, offices) -> 
+  (new Map).centre(region, offices)
 
 $( ->
-  $.getJSON '/offices/123', (offices) -> loadMap(offices)
+  loadRegion (region) ->
+    loadOffices (offices) ->
+      loadMap region, offices
 )

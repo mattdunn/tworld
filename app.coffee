@@ -25,7 +25,7 @@ region = require("./routes/region.coffee").Region()
 offices = require("./routes/offices.coffee").Offices()
 
 app.get "/region/:id", region.getRegion
-app.get "/offices/:id", offices.getOffice
+app.get "/offices", offices.getOffice
 
 app.listen process.env.PORT or 3000
 console.log "Express server listening on port %d in %s mode", app.address().port, app.settings.env
