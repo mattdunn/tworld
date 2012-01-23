@@ -61,6 +61,7 @@ To Do
 
 * layout.jade
   * could this be collapsed into index.jade, given this is a single page web app?
+  * do the includes for simplegeo css and js using the function mechanism.
 
 * Better favicon.ico than a dog?
 
