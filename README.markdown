@@ -37,6 +37,9 @@ License
 To Do
 -----
 
+* manchester and hamburg offices missing
+  * should prolly be another story
+
 * npm test is broken locally
 
 * figure out how to write tests for this stuff
