@@ -54,6 +54,7 @@ To Do
   * zappa?
 
 * better looking map
+  * blue marble look: .add(po.image().url("http://s3.amazonaws.com/com.modestmaps.bluemarble/{Z}-r{Y}-c{X}.jpg"))
 
 * better looking point
   * should the marker be something other than a point?
