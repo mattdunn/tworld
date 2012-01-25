@@ -1,4 +1,5 @@
 #= require "polymaps/polymaps"
+#= require "simplegeo/simplegeo.places.min.js"
 #= require "jquery/jquery.min"
 #= require "map"
 
