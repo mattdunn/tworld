@@ -24,7 +24,7 @@ How to run
 When developing
 ---------------
 
-* When you pull from git, use the '-- rebase' option
+* To update locally from github, use 'git rebase' rather than 'git pull'
 
 License
 -------
