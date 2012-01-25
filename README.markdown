@@ -37,6 +37,8 @@ License
 To Do
 -----
 
+* use the region location provided in the url to specify the region on the map
+
 * manchester and hamburg offices missing
   * should prolly be another story
 

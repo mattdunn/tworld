@@ -1,5 +1,5 @@
 
-TESTS = test/*.coffee
+TESTS = test/**/*.coffee
 REPORTER = spec
 
 test:
