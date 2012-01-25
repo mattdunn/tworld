@@ -1,11 +1,12 @@
 window.Map = 
   class Map
+    constructor: (@mapElement) -> 
+
     centre: (region, offices) ->
       po = org.polymaps
       geoJson = po.geoJson()
       map = po.map()
-              .container(document.getElementById("map")
-              .appendChild(po.svg("svg")))
+              .container(@mapElement.appendChild(po.svg("svg")))
               .center
                 lat: region.lat
                 lon: region.long

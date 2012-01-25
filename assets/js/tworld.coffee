@@ -9,7 +9,7 @@ loadOffices = (callback) ->
    $.getJSON '/offices/', (offices) -> callback(offices)
 
 loadMap = (region, offices) -> 
-  (new Map).centre(region, offices)
+  (new Map(document.getElementById("map"))).centre(region, offices)
 
 $( ->
   loadRegion (region) ->
