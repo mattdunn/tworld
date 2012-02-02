@@ -71,3 +71,5 @@ To Do
 * Better favicon.ico than a dog?
 
 * Automatically deploy from travis to heroku - possibly use [this?](https://github.com/travis-ci/travis-cli/blob/master/spec/travis/cli/config_spec.rb)
+
+* Every dot has layer class and it's a separate div, so I think we could use this to make a google style clickable dot to show some more details on the map. 
