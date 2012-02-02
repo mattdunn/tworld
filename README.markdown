@@ -16,7 +16,7 @@ How to run
 
 * The app
   * npm install
-  * nodemon server.js or it could be node server.js --watch
+  * nodemon server.js
 
 * Tests
   * npm test
