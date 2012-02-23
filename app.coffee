@@ -36,13 +36,17 @@
 
 require('zappa') ->
   @enable 'default layout'
-  @use 'static', 'connect-assets'
+  @use @app.router
+  @use 'static'
+  @app.use require('connect-assets')()
   
   @get '/': ->
     @render 'index'
     
   @view index: ->
-    #@title 'TWorld'
+    @title = 'TWorld'
     @stylesheets = ['/css/main']
     @scripts = ['/js/jquery/jquery.min', '/js/polymaps/polymaps']
+    
+    js('tworld')
     div id: 'map'
