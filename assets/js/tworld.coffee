@@ -1,5 +1,5 @@
-#= require "polymaps/polymaps"
-#= require "jquery/jquery.min"
+#= require "./public/js/polymaps/polymaps"
+#= require "./public/js/jquery/jquery.min"
 #= require "map"
 
 loadRegion = (callback) ->

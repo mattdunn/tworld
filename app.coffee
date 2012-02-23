@@ -1,3 +1,5 @@
+#!/usr/bin/env coffee
+
 #express = require("express")
 
 #app = module.exports = express.createServer()
@@ -31,11 +33,10 @@
 #console.log "Express server listening on port %d in %s mode", app.address().port, app.settings.env
 
 
-#!/usr/bin/env coffee
 
 require('zappa') ->
   @enable 'default layout'
-  @use 'static'
+  @use 'static', 'connect-assets'
   
   @get '/': ->
     @render 'index'
