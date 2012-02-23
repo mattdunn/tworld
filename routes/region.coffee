@@ -1,5 +1,5 @@
-exports.Region = ()->
-  getRegion: ()->
+exports.Region = ->
+  getRegion: ->
     @response.send
       'lat': 52.268157
       'long': 2.548828
