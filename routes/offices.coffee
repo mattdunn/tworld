@@ -1,6 +1,6 @@
-exports.Offices = ()->
-  getOffice:(req, res) ->
-    res.send [
+exports.Offices = ->
+  getOffice: ->
+    @response.send [
       'geometry':
         'type':'Point'
         'coordinates':[-0.125307, 51.515731]

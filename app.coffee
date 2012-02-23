@@ -36,7 +36,6 @@
 
 require('zappa') ->
   @enable 'default layout'
-  @use @app.router
   @use 'static'
   @app.use require('connect-assets')()
   
@@ -54,9 +53,6 @@ require('zappa') ->
   region = require("./routes/region.coffee").Region()
   offices = require("./routes/offices.coffee").Offices()
 
-  @get "/region/:id": ->
-    #region.getRegion
-    {a:'test'}
+  @get "/region/:id": region.getRegion
   
-  @get "/offices": ->
-    #offices.getOffice
+  @get "/offices": offices.getOffice
