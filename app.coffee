@@ -46,7 +46,17 @@ require('zappa') ->
   @view index: ->
     @title = 'TWorld'
     @stylesheets = ['/css/main']
-    @scripts = ['/js/jquery/jquery.min', '/js/polymaps/polymaps']
+    @scripts = ['/js/jquery/jquery.min', '/js/polymaps/polymaps', '/js/map', '/js/tworld']
     
     js('tworld')
     div id: 'map'
+    
+  region = require("./routes/region.coffee").Region()
+  offices = require("./routes/offices.coffee").Offices()
+
+  @get "/region/:id": ->
+    #region.getRegion
+    {a:'test'}
+  
+  @get "/offices": ->
+    #offices.getOffice
