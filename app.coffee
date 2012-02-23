@@ -34,7 +34,7 @@
 #!/usr/bin/env coffee
 
 require('zappa') ->
-  @enable 'default layout', 'serve jquery', 'minify'
+  @enable 'default layout'
   @use 'static'
   
   @get '/': ->
@@ -43,4 +43,5 @@ require('zappa') ->
   @view index: ->
     #@title 'TWorld'
     @stylesheets = ['/css/main']
+    @scripts = ['/js/jquery/jquery.min', '/js/polymaps/polymaps']
     div id: 'map'
