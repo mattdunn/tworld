@@ -3,7 +3,7 @@
 require('zappa') ->
   @enable 'default layout'
   @use 'static'
-  @app.use require('connect-assets')()
+  @use require('connect-assets')()
   @app.listen process.env.PORT or 3000
   
   @get '/': ->
